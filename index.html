@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>Harbor Bank — Agent Card</title>
+  <link rel="stylesheet" href="./src/theme.css">
+  <link rel="stylesheet" href="./src/ui.css">
+</head>
+<body>
+  <main class="desk">
+    <section class="phone-stage" aria-label="Harbor Bank Agent Card interactive demo">
+      <div class="phone" id="phone">
+        <div class="status-bar" aria-label="Phone status">
+          <span id="status-time">14:58</span>
+          <span class="status-icons" aria-hidden="true">
+            <svg width="17" height="12" viewBox="0 0 17 12" fill="currentColor"><rect x="0" y="6" width="3" height="6" rx="0.6"/><rect x="4.5" y="4" width="3" height="8" rx="0.6"/><rect x="9" y="2" width="3" height="10" rx="0.6"/><rect x="13.5" y="0" width="3" height="12" rx="0.6"/></svg>
+            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M1 8.2a7.2 7.2 0 0 1 14 0"/><path d="M3.6 9.6a4.2 4.2 0 0 1 8.8 0"/><circle cx="8" cy="11" r=".8" fill="currentColor" stroke="none"/></svg>
+            <svg width="27" height="13" viewBox="0 0 27 13"><rect x=".6" y=".6" width="22" height="11.8" rx="3.2" fill="none" stroke="currentColor" stroke-width="1.2"/><rect x="2.2" y="2.2" width="17.2" height="8.6" rx="1.8" fill="currentColor"/><path d="M24.4 4.2v4.6a2.2 2.2 0 0 0 0-4.6z" fill="currentColor"/></svg>
+          </span>
+        </div>
+        <div class="app-view" id="app-view"></div>
+        <div id="overlay-root"></div>
+        <div class="home-indicator" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <nav class="demo-controls" aria-label="Demo controls">
+      <button class="desk-button desk-primary" id="play-demo" type="button">Play demo</button>
+      <button class="desk-button" id="try-demo" type="button">Try it yourself</button>
+      <button class="desk-button" id="reset-demo" type="button">Reset demo</button>
+    </nav>
+    <div class="debug-bar" id="debug-bar" hidden></div>
+    <p class="pitch">We don’t ask if a human is holding the phone. We ask if this payment still matches what the customer authorised — and the bank can prove it.</p>
+    <p class="sr-only" id="live-region" aria-live="polite"></p>
+  </main>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>

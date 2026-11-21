@@ -1,0 +1,51 @@
+:root {
+  --hb-bg: #F7F8FA;
+  --hb-surface: #FFFFFF;
+  --hb-text: #0F1115;
+  --hb-muted: #6B7080;
+  --hb-line: #ECEEF2;
+  --hb-accent: #0071E3;
+  --hb-success: #1A9E58;
+  --hb-warning: #B86E00;
+  --hb-danger: #B42318;
+  --hb-overlay: rgba(15,17,21,0.28);
+  --hb-card-face: linear-gradient(135deg,#1C2740 0%,#3A4A72 55%,#6B7EA8 100%);
+  --hb-agent-card-face: linear-gradient(135deg,#0F1115 0%,#1C2740 58%,#263550 100%);
+  --hb-radius: 16px;
+  --hb-radius-sm: 10px;
+  --hb-radius-sheet: 22px;
+  --hb-radius-pill: 999px;
+  --hb-shadow: 0 8px 24px rgba(15,17,21,0.08);
+  --hb-shadow-sheet: 0 24px 60px rgba(15,17,21,0.18);
+  --hb-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Inter, Roboto, sans-serif;
+  --hb-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --hb-desk: #E8EAEF;
+  --hb-card-shine: rgba(255,255,255,0.10);
+  --hb-card-shadow: 0 14px 40px rgba(28,39,64,0.22);
+  --hb-phone-shadow: 0 30px 80px rgba(30,40,80,0.18);
+  --hb-success-soft: color-mix(in srgb, var(--hb-success) 10%, var(--hb-surface));
+  --hb-warning-soft: color-mix(in srgb, var(--hb-warning) 10%, var(--hb-surface));
+  --hb-danger-soft: color-mix(in srgb, var(--hb-danger) 10%, var(--hb-surface));
+  --hb-accent-soft: color-mix(in srgb, var(--hb-accent) 9%, var(--hb-surface));
+  --hb-idle-soft: color-mix(in srgb, var(--hb-muted) 9%, var(--hb-surface));
+  --hb-home-indicator: color-mix(in srgb, var(--hb-text) 18%, transparent);
+
+  --hb-space-1: 8px;
+  --hb-space-2: 16px;
+  --hb-space-3: 24px;
+  --hb-space-half: 4px;
+  --hb-screen-x: 20px;
+  --hb-row-inset: 16px;
+  --hb-card-inset: 20px;
+  --hb-sheet-inset: 24px;
+
+  --hb-type-large: 700 32px/1.35 var(--hb-font);
+  --hb-type-title: 700 24px/1.35 var(--hb-font);
+  --hb-type-subtitle: 700 22px/1.35 var(--hb-font);
+  --hb-type-body: 400 16px/1.4 var(--hb-font);
+  --hb-type-row: 600 16px/1.35 var(--hb-font);
+  --hb-type-caption: 500 13px/1.4 var(--hb-font);
+  --hb-type-button: 600 16px/1.35 var(--hb-font);
+  --hb-type-fine: 400 12px/1.4 var(--hb-font);
+}

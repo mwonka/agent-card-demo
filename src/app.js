@@ -557,7 +557,8 @@ function renderDocumentSheet() {
 
 function mandatePayload() {
   const mandate = structuredClone(ui.mandate);
-  if (mandate.valid_days !== 7) mandate.valid_to = new Date(Date.now() + mandate.valid_days * 86_400_000).toISOString();
+  if (mandate.valid_days === 0) mandate.valid_to = "9999-12-31T23:59:59+04:00";
+  else if (mandate.valid_days !== 7) mandate.valid_to = new Date(Date.now() + mandate.valid_days * 86_400_000).toISOString();
   return mandate;
 }
 
